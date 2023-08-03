@@ -192,3 +192,9 @@ Note that for SES, you must configure from_email to the valid email that can sen
 
 3. Create a connection called ``aws_default``, or choose a custom connection
    name and set it in ``email_conn_id``. The type of connection should be ``Amazon Web Services``.
+The connection should have the following properties filled:
+AWS Access Key ID, AWS Secret Access Key, Extra
+{
+  "region_name": "us-east-1"
+}
+
